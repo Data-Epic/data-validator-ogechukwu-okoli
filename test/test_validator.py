@@ -4,8 +4,7 @@ import os
 
 # Adding the parent directory of the package
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from datavalidator.validator import DATAVALIDATOR
-
+from datavalidatorpro.validator import DATAVALIDATOR
 # Testing emails
 def test_validate_email():
     validator = DATAVALIDATOR("okoliogechi74gmailcom")  # Testing invalid email
