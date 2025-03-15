@@ -1,0 +1,4 @@
+[project]
+name = "datavalidatorpro"
+version = "0.1"
+description = "A simple data validation package"
