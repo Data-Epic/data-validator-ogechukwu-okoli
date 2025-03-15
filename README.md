@@ -1,7 +1,8 @@
 ﻿# data-validator-ogechukwu-okoli
  DATAVALIDATOR
 This is a python package for datavalidation. It is capable of validating emails,phonenumbers,dates as well as url's
-____________________________________________________________________________________________________________________
+
+
 **EMAIL VALIDATION**
 
 The part of the code that validates emails is embedded in the validate_email.
