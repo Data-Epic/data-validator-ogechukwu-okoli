@@ -1,9 +1,0 @@
-LICENSE.txt
-README.md
-setup.py
-datavalidatorpro.egg-info/PKG-INFO
-datavalidatorpro.egg-info/SOURCES.txt
-datavalidatorpro.egg-info/dependency_links.txt
-datavalidatorpro.egg-info/top_level.txt
-test/__init__.py
-test/test_validator.py

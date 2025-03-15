@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
-setup(
-    name= "datavalidatorpro",
-    version="0.1",
-    license="MIT",
-    packages=find_packages(),
-    install_requires= [],
-    author= "Okoli Ogechukwu Abimbola",
-    author_email="okoliogechi74@gmail.com",
-    description="A simple data validation package",
 
+setup(
+    name='datavalidatorpro',
+    version='0.1',
+    packages=find_packages(),
+    include_package_data=True,
+    license='MIT',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     classifiers=[
-        "Programming language:: Python ::3.13.2",
-        "license :: OSI Approved :: MIT License"
-        ],
+        'Programming Language :: Python :: 3.13.2',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
 )
